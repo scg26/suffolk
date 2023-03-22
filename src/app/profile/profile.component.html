@@ -1,0 +1,18 @@
+<div id="home-page" *ngIf="userProfile">
+    <h1 class="display-3">Welcome {{ userProfile?.firstName }} {{userProfile?.lastName}} </h1>
+    <div class="col" id="products">
+        <div class="row row-cols-3">
+            <ng-container>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{userProfile?.image}}" class="card-img-top" alt="{{userProfile?.title}}">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ userProfile?.username }}</h5>
+                            <p class="card-text">{{ userProfile?.gender}}</p>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+    </div>

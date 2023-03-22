@@ -1,0 +1,29 @@
+
+#products {
+    padding: 0px 50px;
+}
+
+.col {
+    margin: auto;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: contain;
+}
+
+.card {
+    height: fit-content;
+    margin: 20px auto;
+}
+
+.display-3 {
+    padding-bottom: 50px;
+}
+
+p {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
